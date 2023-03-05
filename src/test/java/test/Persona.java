@@ -36,7 +36,7 @@ public class Persona {
 
     public Persona(String nombre) {
         cedula = 1; //!nose si es 3 o 0
-        this.nombre = "";
+        this.nombre = nombre;
         totalPersonas++;
     }
 
